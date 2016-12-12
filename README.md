@@ -10,9 +10,8 @@ Live version at https://www.deanspot.org/~alex/2016-election-results/index.html.
 
 ### election results
 
-Data from https://simonrogers.net/2016/11/16/us-election-2016-how-to-download-county-level-results-data/
-
-`wget https://raw.githubusercontent.com/tonmcg/County_Level_Election_Results_12-16/master/US_County_Level_Presidential_Results_08-16.csv`
+  1. Data from https://github.com/tonmcg/County_Level_Election_Results_12-16
+  1. I found out about it via https://simonrogers.net/2016/11/16/us-election-2016-how-to-download-county-level-results-data/
 
 ### county locations
 
