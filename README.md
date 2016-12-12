@@ -6,6 +6,12 @@ A look at the 2016 US presidential election results in 3D.
 
 Live version at https://www.deanspot.org/~alex/2016-election-results/index.html.
 
+## Controls
+
+  1. click + drag to look around.
+  1. scroll up down to zoom.
+  1. arrow keys to move around.
+
 ## Sources
 
 ### election results
@@ -49,9 +55,3 @@ $ python -m SimpleHTTPServer
 ```
 
 Now browse to http://localhost:8000.
-
-## Controls
-
-  1. click + drag to look around.
-  1. scroll up down to zoom.
-  1. arrow keys to move around.
