@@ -18,8 +18,9 @@ Data from https://simonrogers.net/2016/11/16/us-election-2016-how-to-download-co
 
   1. download shape file from http://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html
   1. convert to sql. `shp2pgsql -s 4269:4326 cb_2015_us_county_20m.shp > cb_2015_us_county_20m.sql`
-  1. load into postgres
-  1. export to csv
+  1. `createdb map_data`
+  1. `psql map_data < cb_2015_us_county_20m.sql`
+  1. start `psql map_data` and run the following to export needed data to csv
 
 ```sql
 copy (
